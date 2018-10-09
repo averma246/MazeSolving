@@ -16,12 +16,6 @@ Graph.java:
 MazeSolver.java: 
 * starter code provided by Kristy Gardner 
 * @author of *solve()*: Ana Verma
-* *description from assignment:* 
-1. Calls the parse() method to read the contents of a file* and extract information about
-the size of the maze and the walls in the maze.
-2. Calls the buildGraph() method to generate a graph based on the maze information
-extracted by parse(). This method calls the addEdge() method in Graph.
-3. Calls the printMaze() method to print the maze. Right now if you compile and run
-the program an empty maze will print that exactly matches the contents of your input
-file. If you update the booleans in each node as you’re solving the maze, it should print
-out something more interesting when you’re done solving
+* *solve()* uses Depth-First search on the maze stored in the Graph to solve it
+* *description from assignment:* (1) Calls the *parse()* method to read the contents of a file and extract information about
+the size of the maze and the walls in the maze, (2) Calls the *buildGraph()* method to generate a graph based on the maze information extracted by *parse()*, (3) Calls the *printMaze()* method to print the maze
